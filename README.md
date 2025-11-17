@@ -6,7 +6,6 @@ Live demo: https://sarangnayak.github.io/Space-Today/
 
 ---
 
-
 ## 🛰️ About
 
 **Space-Today** is a front-end web project that fetches and displays data from NASA’s APIs to present daily space/astronomy content. It provides users with up-to-date space imagery, facts, and more, enabling exploration of the cosmos right from the browser.
