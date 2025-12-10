@@ -49,12 +49,12 @@ Simply open `index.html` in any modern web browser.
    Serve the files using any HTTP server:
 
 
-2. # Using Python
+2. Using Python
 ```
 python -m http.server 8000
 ```
 
-# Using Node.js with http-server
+   Using Node.js with http-server
 ```
 npx http-server
 ```
