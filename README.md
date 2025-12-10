@@ -59,3 +59,63 @@ python -m http.server 8000
 npx http-server
 ```
 3. Open http://localhost:8000 in your browser
+
+### Option 3: GitHub Pages
+The project is automatically deployed to GitHub Pages from the `main` branch.
+
+## 🔧 Technical Details
+
+### API Integration
+- **NASA APOD API** – Fetches daily astronomy images and descriptions
+- **NASA Open APIs** – Utilizes various NASA data endpoints
+- **Fetch API** – Modern JavaScript for asynchronous data loading
+- **Error Handling** – Graceful fallbacks for API failures
+
+### Architecture
+- **Vanilla JavaScript** – No frameworks or external dependencies
+- **Modular CSS** – Organized styles with clear separation of concerns
+- **Responsive Design** – CSS Grid and Flexbox for adaptive layouts
+- **Asset Optimization** – Efficient loading of images and resources
+
+### Browser Support
+- Chrome 60+
+- Firefox 55+
+- Safari 12+
+- Edge 79+
+- Mobile browsers (iOS Safari, Chrome for Android)
+
+## 📸 NASA APIs Used
+
+This project leverages NASA's open APIs including:
+- **APOD (Astronomy Picture of the Day)** – Daily space imagery
+- **EPIC (Earth Polychromatic Imaging Camera)** – Earth imagery
+- **Mars Rover Photos** – Images from Mars rovers
+- **Asteroids NeoWs** – Near Earth Object Web Service
+
+## 🎯 Use Cases
+
+- **Education** – Astronomy and space science learning tool
+- **Inspiration** – Daily dose of space exploration wonder
+- **Development** – Example of API integration and front-end design
+- **Portfolio** – Showcase of modern web development skills
+- **Dashboard** – Space data visualization reference
+
+🔧 Customization
+Want to extend the project? Here are some ideas:
+
+1. Add More NASA APIs:
+```
+// In script.js, add new API endpoints
+const NEW_API_URL = 'https://api.nasa.gov/planetary/apod';
+```
+
+2. Change Theme:
+
+> css
+```
+/* In style.css, modify CSS custom properties */
+:root {
+  --primary-color: #your-color;
+  --background-color: #your-bg-color;
+}
+```
