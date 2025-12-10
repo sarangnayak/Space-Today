@@ -120,3 +120,48 @@ const NEW_API_URL = 'https://api.nasa.gov/planetary/apod';
   --background-color: #your-bg-color;
 }
 ```
+
+3. **Add Features**:
+   - Save favorite images to localStorage
+   - Add image download functionality
+   - Implement search by date
+   - Add share functionality
+   - Create image galleries
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Report Issues** – Found a bug? Open an issue
+2. **Suggest Features** – Have an idea? Share it in discussions
+3. **Submit PRs** – Implement improvements and submit pull requests
+4. **Improve Docs** – Help make the documentation better
+
+### Development Workflow
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- **NASA** – For providing amazing open APIs and data
+- **NASA API Team** – For maintaining accessible space data
+- **Open Source Community** – For tools and inspiration
+- **GitHub** – For hosting and GitHub Pages
+
+## 🌌 About the Developer
+
+Built with curiosity and passion for space exploration. This project aims to make space science accessible and engaging for everyone through modern web technologies.
+
+---
+
+> "The universe is under no obligation to make sense to you." – Neil deGrasse Tyson  
+> This project tries to make it a little more comprehensible, one API call at a time.
+
+**Keep looking up!** 🌠
