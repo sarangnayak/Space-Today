@@ -104,7 +104,8 @@ This project leverages NASA's open APIs including:
 Want to extend the project? Here are some ideas:
 
 1. Add More NASA APIs:
-```
+> javascript
+``
 // In script.js, add new API endpoints
 const NEW_API_URL = 'https://api.nasa.gov/planetary/apod';
 ```
