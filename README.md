@@ -26,3 +26,36 @@ A front-end web application that brings the wonders of space right to your brows
 Visit the live site: [https://sarangnayak.github.io/Space-Today/](https://sarangnayak.github.io/Space-Today/)
 
 ## 📁 Project Structure
+```
+Space-Today/
+├── index.html # Main application entry point
+├── style.css # All styles (layout, theme, animations)
+├── script.js # NASA API integration and UI logic
+└── README.md # Project documentation
+```
+
+
+## 🛠️ Getting Started
+
+### Option 1: Quick View
+Simply open `index.html` in any modern web browser.
+
+### Option 2: Local Development
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sarangnayak/Space-Today.git
+   cd Space-Today
+   ```
+   Serve the files using any HTTP server:
+
+
+2. # Using Python
+```
+python -m http.server 8000
+```
+
+# Using Node.js with http-server
+```
+npx http-server
+```
+3. Open http://localhost:8000 in your browser
